@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+header {
+    background-color:#1B83E2;
+    height: 66px;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 25px;
+  color: #f4f4f4;
+}
+
+main {
+    padding: 24px;
+}
+
+label {
+    font-size: 14px;
+    color: #777777;
+    margin-bottom: 8px;
+}
+
+select{
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    padding: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    margin-bottom: 24px;
+    margin-top: 6px;
+}
+
+input {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    padding: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    margin-bottom: 24px;
+}
+
+button {
+    background-color: #1B83E2;
+    height: 48px;
+    width: 100%;
+    border: none;
+    color: #f4f4f4;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 36px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.7;
+}
+
+section {
+    border: 1px solid #1B83E2;
+    border-radius: 5px;
+}
+
+.container {
+    width: 375px;
+    background-color: #F4F4F4; 
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.currency-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.currency-name {
+    font-size: 14px;
+    color: #777777;
+}
+
+.currency-value {
+    font-size: 20px;
+    color: #1B83E2;
+}
+
+
+
+
